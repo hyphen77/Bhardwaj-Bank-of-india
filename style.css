@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #074173;
+    color: rgb(242, 246, 246);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border-bottom: 3px solid black;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+ nav a:hover {
+    text-decoration: underline;
+    color: #a21e19;
+}
+
+.hero {
+    background-color: rgb(12, 185, 224);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    cursor:crosshair;
+}
+
+.hero button:hover {
+    background-color: #074173;
+}
+
+.services {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(97, 122, 163);
+    border: 3px solid black;
+}
+
+.card {
+    background-image: url(savingsss.jpg);
+    background-size: cover;
+    
+    height:250px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    padding:90px 30px;
+}
+.card2{
+     background-image: url(pexels-pixabay-50987.jpg);
+     background-size: cover;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding: 90px 30px;
+    color: white;
+}
+.card3{
+     background-image: url(500note.jpg);
+     background-size: cover;
+     height:250px;
+    width: 250px;
+    padding: 90px 30px;
+    text-align: center;
+    color: white;
+}
+.useful{
+     display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(12, 185, 224);
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+}
+.useful button{
+    background-color:#0a3d62;
+    border-left: 2px solid black;
+    text-decoration: none;
+    color: aliceblue;
+}
+.services button{
+    border: 5px solid black;
+}
+
+footer {
+    background-color: #074173;
+    color: white;
+    border-top: 3px solid black;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+footer a{
+    color: white;
+    
+}
+header h1:hover{
+    animation:BBI .5s ease-in 0.25s infinite normal;
+    
+}
+footer a:hover{
+    color: black;
+}
+.services div:hover{
+    color: blue;
+}
+
+.content button:hover{
+    background-color: #290a99;
+    color: aqua;
+}
+
+@keyframes BBI{
+    0%{color: white;}
+    50%{color: aqua;}
+    75%{color: blueviolet;}
+    100%{color: #a21e19;}
+}
